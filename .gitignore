@@ -1,0 +1,15 @@
+# Exclude all .tfvars files, which may contain sentitive data, such as
+# password, private keys, and other secrets. These should not be part of version 
+# control as they are data points which are potentially sensitive and subject 
+# to change depending on the environment.
+#
+*.DS_Store
+*.tfvars
+*.tfplan
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+terraform.tfstate
+terraform.tfstate.backup
