@@ -15,7 +15,7 @@ variable "snet_name" {
 variable "env_prefix" {
   type        = string
   description = "Environment prefix to use to label resources in cloud deployment."
-  default     = "PRDCUS"
+  default     = "PRD"
 }
 
 variable "vm_prefix" {
