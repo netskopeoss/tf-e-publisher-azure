@@ -4,7 +4,7 @@ provider "azurerm" {
   features {}
 }
 
-# Netskope Provider Block. We recommend to use envrionment variables instead.
+# Netskope Provider Block. We recommend to use environment variables instead.
 /*
 provider "netskope" {
   baseurl  = "<tenant-url>"
