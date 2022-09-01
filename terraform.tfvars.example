@@ -1,0 +1,7 @@
+admin_username = ""
+admin_ssh_key  = ""
+vnet_rg_name   = " "
+vnet_name      = ""
+snet_name      = ""
+trusted_ip     = ""
+publisher_name = ""
