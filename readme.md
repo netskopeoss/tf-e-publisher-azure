@@ -11,6 +11,8 @@ This Infrastructure as Code (IaC) will help you deploy Netskope Publisher in you
 
 - Ensure the outbound connectivity is allowed. For more information on the connectivity requirements: [Requirements](https://docs.netskope.com/en/deploy-a-publisher.html#UUID-7da4399d-5d95-5328-f08d-a954d5b49642_section-idm4547044674564832680183732553)
 
+- The username must be set to "ubuntu". Password authentication is disabled and you must use SSH keys to authenticate.
+
 
 Full documentation can be found here: [Netskope Publisher](https://docs.netskope.com/en/netskope-private-access.html)
 
